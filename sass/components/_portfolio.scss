@@ -65,7 +65,7 @@
     }
 
     &__box-link:hover &__box-link-details,
-    &__box-link:focus {
+    &__box-link:focus &__box-link-details {
         transform: translateY(0);
     }
 }
