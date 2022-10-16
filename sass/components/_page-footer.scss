@@ -93,6 +93,10 @@
         outline: none;
         color: var(--brand-color);
         padding-left: 16px;
+    
+        &:focus {
+        border: 1px solid var(--accent-color);
+        } 
     }
 
     &__input placeholder {
